@@ -3,7 +3,7 @@ import sqlite3
 
 root = tk.Tk()
 root.title('INTEGRATION')
-root.geometry('300x350')
+root.geometry('300x500')
 
 label_id = tk.Label(root, text='Student ID')
 label_id.pack(pady=(15,5))
