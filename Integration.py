@@ -58,7 +58,6 @@ def delete_student():
     cursor.execute('DELETE FROM DB_student WHERE db_student_id=?', (student_id,))
     print ('Deleted record: {}'.format(delete))
     conn.commit()
-    print ('-' * 30)
     
 button_delete = tk.Button(root, text='Delete', command=delete_student)
 button_delete.pack(pady=10)
